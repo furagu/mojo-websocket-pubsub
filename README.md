@@ -8,7 +8,7 @@ To run this application you need Redis and Perl 5 with some additional modules.
 
 1. Install Redis with your system package manager.
 
-2. Make sure you have Perl 5 installed by running ```perl -v```. Next, install the required modules by running ```sudo cpan Mojolicious Mojo::Redis```. Cpan will ask you a lot of questions which are all safe to be answered with defaults by pressing Enter. The first run of cpan will take some time to search for the nearest repository mirror, load the modules list and other stuff, so be patient.
+2. Make sure you have Perl 5 installed by running ```perl -v```. Next, install the required modules by running ```sudo cpan Mojolicious Mojo::Redis```. Cpan will ask you a lot of questions which are all safe to be answered with defaults by pressing Enter. The first run of cpan will take some time to search for the nearest repository mirror, to load the modules list and other stuff, so be patient.
 
    Check the installation by running ```perl -MMojolicious -MMojo::Redis -e 'print "ok\n"'```.
 
