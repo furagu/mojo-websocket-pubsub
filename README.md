@@ -23,4 +23,4 @@ Target your browser at [127.0.0.1:3000](http://127.0.0.1:3000) and press "Connec
 
 Open ``redis-cli`` and type ```publish test Hey!```. Go to the browser and see "Hey!" message displayed several times.
 
-Type ``info Clients`` in redis-cli to see that there are only two Redis connection used (one for redis-cli and the other for the application), no matter how many websocket connections are active.
+Type ``info Clients`` in redis-cli to see that there are only two Redis connection used, no matter how many websocket connections are active (one for redis-cli and the other for the application).
